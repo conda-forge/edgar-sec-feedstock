@@ -1,17 +1,17 @@
 About edgar-sec-feedstock
 =========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/edgar-sec-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/feedstock-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nikhilxsunder/edgar-sec
 
 Package license: AGPL-3.0-or-later
 
-Summary: A feature-rich Python package for interacting with the US Securities and Exchange Commission API (EDGAR)
+Summary: A feature-rich python package for interacting with the US Securities and Exchange Commission API: EDGAR
 
-Development: https://github.com/nikhilxsunder/edgar-sec
+Development: https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz
 
-Documentation: https://nikhilxsunder.github.io/edgar-sec/
+Documentation: https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz
 
 edgar-sec is a Python package for interacting with the US Securities and Exchange Commission EDGAR API.
 It provides a feature-rich interface with:
@@ -28,8 +28,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=25233&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/edgar-sec-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/feedstock-feedstock?branchName=main">
       </a>
     </td>
   </tr>
