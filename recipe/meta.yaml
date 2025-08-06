@@ -3,7 +3,7 @@ package:
   version: 2.0.0
 
 source:
-  url: "https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz"
+  url: "https://pypi.io/packages/source/e/edgar-sec/edgar_sec-2.0.0.tar.gz"
   sha256: "3d9f88e4f3c1820cc98f472c175b2101735ef752e0f71096b304cd4be3eb1e2a"
 
 build:
@@ -34,8 +34,8 @@ test:
 
 about:
   home: "https://github.com/nikhilxsunder/edgar-sec"
-  doc_url: "https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz"
-  dev_url: "https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz"
+  doc_url: "https://nikhilxsunder.github.io/edgar-sec/"
+  dev_url: "https://github.com/nikhilxsunder/edgar-sec"
   license: AGPL-3.0-or-later
   license_family: AGPL
   license_file: LICENSE
