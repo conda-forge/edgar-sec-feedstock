@@ -1,47 +1,45 @@
-{% set name = "edgar-sec" %}
-{% set version = "1.0.1" %}
-
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: edgar-sec
+  version: 2.0.0
 
 source:
-  url: https://pypi.org/packages/source/e/{{ name }}/edgar_sec-{{ version }}.tar.gz
-  sha256: 8ff418237992aec18c6c113e0b3c1248cf2cf7fe17a5558a468f139205115604
+  url: "https://pypi.io/packages/source/e/edgar-sec/edgar_sec-2.0.0.tar.gz"
+  sha256: "3d9f88e4f3c1820cc98f472c175b2101735ef752e0f71096b304cd4be3eb1e2a"
 
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: |
+    python -m pip install . -vv
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.9,<4.0
     - pip
     - poetry-core >=1.0.0
   run:
-    - python >={{ python_min }}
+    - python >=3.9,<4.0
     - httpx
     - tenacity
-    - cachetools
+    - conda-forge::cachetools
+    - conda-forge::asyncache
 
 test:
   imports:
     - edgar_sec
   requires:
     - pip
-    - python {{ python_min }}
   commands:
     - pip check
 
 about:
-  home: https://github.com/nikhilxsunder/edgar-sec
-  doc_url: https://nikhilxsunder.github.io/edgar-sec/
-  dev_url: https://github.com/nikhilxsunder/edgar-sec
+  home: "https://github.com/nikhilxsunder/edgar-sec"
+  doc_url: "https://nikhilxsunder.github.io/edgar-sec/"
+  dev_url: "https://github.com/nikhilxsunder/edgar-sec"
   license: AGPL-3.0-or-later
   license_family: AGPL
   license_file: LICENSE
-  summary: A feature-rich Python package for interacting with the US Securities and Exchange Commission API (EDGAR)
+  summary: "A feature-rich python package for interacting with the US Securities and Exchange Commission API: EDGAR"
   description: |
     edgar-sec is a Python package for interacting with the US Securities and Exchange Commission EDGAR API.
     It provides a feature-rich interface with:
