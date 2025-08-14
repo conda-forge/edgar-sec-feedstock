@@ -9,9 +9,9 @@ Package license: AGPL-3.0-or-later
 
 Summary: A feature-rich python package for interacting with the US Securities and Exchange Commission API: EDGAR
 
-Development: https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz
+Development: https://github.com/nikhilxsunder/edgar-sec
 
-Documentation: https://pypi.io/packages/source/e/edgar-sec/edgar-sec-2.0.0.tar.gz
+Documentation: https://nikhilxsunder.github.io/edgar-sec/
 
 edgar-sec is a Python package for interacting with the US Securities and Exchange Commission EDGAR API.
 It provides a feature-rich interface with:

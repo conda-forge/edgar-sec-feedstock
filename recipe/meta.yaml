@@ -1,10 +1,10 @@
 package:
   name: edgar-sec
-  version: 2.0.0
+  version: 2.0.1
 
 source:
-  url: "https://pypi.io/packages/source/e/edgar-sec/edgar_sec-2.0.0.tar.gz"
-  sha256: "3d9f88e4f3c1820cc98f472c175b2101735ef752e0f71096b304cd4be3eb1e2a"
+  url: "https://pypi.io/packages/source/e/edgar-sec/edgar_sec-2.0.1.tar.gz"
+  sha256: "ed327d89d5b1fcca3b3ca44648ac137a23770b591cd5716a74813544c57f53f9"
 
 build:
   noarch: python
