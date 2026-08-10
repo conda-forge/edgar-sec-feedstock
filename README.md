@@ -157,4 +157,7 @@ Feedstock Maintainers
 =====================
 
 * [@nikhilxsunder](https://github.com/nikhilxsunder/)
+* [@jbbernardin](https://github.com/jbbernardin/)
+* [@rayhanr1](https://github.com/rayhanr1/)
+* [@JakeSchultz28](https://github.com/JakeSchultz28/)
 
